@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #111;
+    transition: all 0.3s ease;
+}
+.header.sticky{
+    background: #fff;
+}
+.header.sticky .logo a{
+    color: #000;
+}
+.header.sticky .nav-menu a{
+    color: #000;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 100%;
+}
+.logo a{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+}
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+.nav-menu a{
+    font-size: 1.6rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.nav-menu a:hover{
+    color: aqua;
+}
+.bg{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.hero{
+    background: pink;
+}
+.service{
+    background: rgb(190, 238, 142);
+}
+.Blogs{
+    background: rgb(181, 236, 247);
+}
+.contact{
+    background: rgb(213, 175, 246);
+}
